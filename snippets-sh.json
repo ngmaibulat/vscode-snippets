@@ -1,0 +1,31 @@
+{
+  "SSH keygen": {
+    "prefix": "!ssh.key.gen",
+    "body": ["ssh-keygen -t ed25519"],
+    "description": "Generate SSH keypair"
+  },
+
+  "Start SSH Agent": {
+    "prefix": "!ssh.agent.start",
+    "body": ["eval `ssh-agent`", "ssh-add", "ssh-add -l"],
+    "description": "Start SSH Agent"
+  },
+
+  "SSH Session with Agent forwarding": {
+    "prefix": "!ssh.session.agent",
+    "body": ["ssh -A user@host"],
+    "description": "SSH session with Agent forwarding"
+  },
+
+  "SCP Copy To": {
+    "prefix": "!scp.copy.to",
+    "body": ["scp filename user@host:/path/file"],
+    "description": "SCP Copy To"
+  },
+
+  "SCP Copy From": {
+    "prefix": "!scp.copy.from",
+    "body": ["scp user@host:/path/file filename"],
+    "description": "SCP Copy From"
+  }
+}

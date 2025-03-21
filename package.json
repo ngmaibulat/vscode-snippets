@@ -1,0 +1,25 @@
+{
+  "name": "ngm-snippets",
+  "displayName": "NGM Snippets",
+  "description": "NGM Snippets",
+  "version": "0.0.1",
+  "publisher": "NGM",
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "shellscript",
+        "path": "./snippets-sh.json"
+      }
+    ]
+  }
+}

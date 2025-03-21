@@ -1,0 +1,13 @@
+{
+  "Print to console": {
+    "prefix": "log",
+    "body": ["console.log('$1');", "$2"],
+    "description": "Log output to console"
+  },
+
+  "Fetch": {
+    "prefix": "!fetch",
+    "body": ["await fetch('$1')"],
+    "description": "fetch http resource"
+  }
+}
