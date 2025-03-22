@@ -4,6 +4,7 @@
   "description": "NGM Snippets",
   "version": "0.0.1",
   "publisher": "NGM",
+  "repository": "https://github.com/ngmaibulat/vscode-snippets"
   "engines": {
     "vscode": "^1.20.0"
   },
