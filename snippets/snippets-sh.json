@@ -27,5 +27,11 @@
     "prefix": "!scp.copy.from",
     "body": ["scp user@host:/path/file filename"],
     "description": "SCP Copy From"
+  },
+
+  "RSync": {
+    "prefix": "!rsync",
+    "body": ["rsync $1 $2"],
+    "description": "rsync"
   }
 }

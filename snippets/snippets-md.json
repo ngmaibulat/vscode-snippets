@@ -1,0 +1,32 @@
+{
+  "Image": {
+    "prefix": "!img",
+    "body": ["![${1:description}](${2:images/image.avif})"],
+    "description": "Image"
+  },
+  "City": {
+    "prefix": "!city",
+    "body": ["city: ${1|Bakuriani,Batumi,Borjomi|}", "\n\tis a cool place!"],
+    "description": "City"
+  },
+  "Filename": {
+    "prefix": "!file",
+    "body": ["$TM_FILENAME"],
+    "description": "Filename"
+  },
+  "Year": {
+    "prefix": "!year",
+    "body": ["$CURRENT_YEAR"],
+    "description": "Year"
+  },
+  "UUID": {
+    "prefix": "!uuid",
+    "body": ["$UUID"],
+    "description": "UUID"
+  },
+  "Random": {
+    "prefix": "!random",
+    "body": ["$RANDOM"],
+    "description": "random"
+  }
+}
